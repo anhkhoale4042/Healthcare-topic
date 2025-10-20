@@ -15,5 +15,5 @@ This project performs topic clustering on a Vietnamese medical Q&A dataset using
 - **Topic Labeling:** extract top keywords for each cluster using TF-IDF  
 
 ## Results
-- **KMeans:** 18 clusters with moderate separation  
+- **K-Means:** 18 clusters with moderate separation  
 - **BERTopic:** 20 well-defined topics related to common medical issues
