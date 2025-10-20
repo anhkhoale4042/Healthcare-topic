@@ -1,6 +1,6 @@
-# Vietnamese Medical QA Topic Clustering
+# Vietnamese Medical QA Topic Extraction 
 
-This project performs topic clustering on a Vietnamese medical Q&A dataset using Sentence-BERT embeddings and BERTopic.
+This project performs topic clustering on a Vietnamese medical Q&A dataset using K-Means and BERTopic.
 
 ## Overview
 - **Dataset:** [hungnm/vietnamese-medical-qa](https://huggingface.co/datasets/hungnm/vietnamese-medical-qa)
@@ -11,7 +11,7 @@ This project performs topic clustering on a Vietnamese medical Q&A dataset using
 - **Preprocessing:** remove emojis, greetings, and special characters  
 - **Tokenization:** segment Vietnamese words using Underthesea and remove stopwords  
 - **Embedding:** use `keepitreal/vietnamese-sbert` to generate sentence vectors  
-- **Clustering:** apply both KMeans and BERTopic (UMAP + HDBSCAN)  
+- **Clustering:** apply both K-Means and BERTopic (UMAP + HDBSCAN)  
 - **Topic Labeling:** extract top keywords for each cluster using TF-IDF  
 
 ## Results
